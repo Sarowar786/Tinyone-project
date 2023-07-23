@@ -1,0 +1,152 @@
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration:none;
+    color: #000;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary_color:#fcdb00;
+    --secondary_color:#010101;
+}
+
+/*----------- common css end----------- */
+/*----------- header part css start----------- */
+.nav-link,
+.ms-3{
+    color: #000;
+    font-weight: bold;
+}
+.container{
+    max-width: 75%;
+}
+.header_part{
+background: var(--primary_color);
+padding: 20px 0;
+}
+
+/*----------- header part css end----------- */
+
+/*----------- hero part css start---------- */
+.hero_part{
+    background: var(--primary_color);
+    overflow-x: hidden;
+}
+.hero_con{
+    padding-top: 70px;
+}
+.hero_con h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+.hero_con h3 {
+    font-weight: 800;
+    font-size: 36px;
+}
+.pt-4{
+    font-size: 20px;
+}
+.apple{
+    padding-right: 1.5rem;
+}
+.ipod{
+    
+    padding-bottom: 105px;
+}
+/*----------- hero part css end----------- */
+
+/*----------- fraure part css start----------- */
+.feature_head{
+    padding: 115px 125px 90px;
+    text-align: center;
+    
+
+}
+.features_icon{
+    width: 50px;
+    height: 50px;
+}
+.feature_con p{
+    font-size: 16px;
+}
+.feature_con{
+    padding-left: 25px;
+}
+.bottom{
+    margin-bottom: 155px;
+}
+/*----------- fraure part css end----------- */
+
+/*----------- footer part css start----------- */
+.footer_part{
+    background: var(--secondary_color);
+}
+.footer_con h2{
+    color: var(--primary_color);
+}
+.footer_con p{
+
+    color:#898989;
+}
+.footer_con{
+    padding:90px 85px 40px;
+}
+.text-center input{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+}
+.text-center input::placeholder{
+    padding-left: 15px;
+}
+.btn:hover{
+    background: white !important;
+}
+.btn{
+    width:125px ;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--primary_color);
+    color: #000;
+    margin-left: 20px;
+}
+.footer_icon{
+    padding: 75px;
+    text-align: center;
+}
+ 
+.footer_icon img{
+    margin:0 10px;
+}
+.last_gap{
+    padding-bottom: 135px;
+}
+/*----------- footer part css end----------- */
